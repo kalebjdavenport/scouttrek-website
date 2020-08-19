@@ -5,9 +5,18 @@ html {
 }
 body {
   margin: 0;
+  font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 2.5px;
+  background-image: url("../images/worn_dots.png");
+  background-repeat: repeat;
 }
+
+.shadow-light {
+  filter: drop-shadow(-0px 0px 50px rgba(0, 0, 0, 0.15));
+}
+
 article,
 aside,
 details,
@@ -185,7 +194,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: 112.5%/1.45em Montserrat, serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -200,8 +209,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
-  font-weight: normal;
+  font-family: Montserrat, serif;
   word-wrap: break-word;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";

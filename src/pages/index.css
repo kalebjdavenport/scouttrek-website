@@ -1,0 +1,18 @@
+#screenshot-container {
+  position: absolute;
+  right: 0;
+  top: 15%;
+}
+.screenshot-width: {
+  width: 53vw;
+}
+
+@media only screen and (max-width: 725px) {
+  #screenshot-container {
+    display: block;
+    position: relative;
+  }
+  .screenshot-width: {
+    width: 100vw;
+  }
+}
