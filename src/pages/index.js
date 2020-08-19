@@ -4,6 +4,7 @@ import Screenshots from "../components/Screenshots"
 import Colors from "../colors"
 
 import AppLinks from "../components/appLinks"
+import AddFeatureForm from "../components/AddFeatureForm"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -69,6 +70,7 @@ const IndexPage = () => (
       </p>
     </div>
     <AppLinks />
+    <AddFeatureForm />
   </Layout>
 )
 

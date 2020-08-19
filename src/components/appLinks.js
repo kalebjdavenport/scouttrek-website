@@ -9,7 +9,7 @@ const AppLinks = () => {
     <>
       <div class="app-link">
         <LogoApple onClick={() => {}} fontSize="60px" />
-        <a href="https://testflight.apple.com/join/PnqV8kOs">Download</a>
+        <a href="https://testflight.apple.com/join/qNAp55bd">Download</a>
       </div>
       <div class="app-link">
         <LogoAndroid onClick={() => {}} fontSize="60px" />
