@@ -3,7 +3,7 @@
   right: 0;
   top: 15%;
 }
-.screenshot-width: {
+.screenshot-width {
   width: 53vw;
 }
 
@@ -12,7 +12,7 @@
     display: block;
     position: relative;
   }
-  .screenshot-width: {
+  .screenshot-width {
     width: 100vw;
   }
 }
