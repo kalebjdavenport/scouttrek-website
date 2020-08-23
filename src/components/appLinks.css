@@ -2,9 +2,17 @@
   display: flex;
   align-items: center;
   font-size: 1.15rem;
+  align-items: center;
 }
 
 .app-link a {
   padding: 0.65rem;
   color: #db741a;
+}
+
+.app-link h6 {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
 }
