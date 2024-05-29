@@ -11,25 +11,15 @@ const AppLinks = () => {
         <LogoApple onClick={() => {}} fontSize="60px" />
         <a href="https://testflight.apple.com/join/qNAp55bd">Download</a>
         for
-        <h6>Troop 800</h6>
-      </div>
-      <div class="app-link">
-        <LogoApple onClick={() => {}} fontSize="60px" />
-        <a href="https://testflight.apple.com/join/irMKo9ty">Download</a>
-        for
-        <h6>Troop 36</h6>
-      </div>
-      <div class="app-link">
-        <LogoApple onClick={() => {}} fontSize="60px" />
-        <a href="https://testflight.apple.com/join/lXCCDqaM">Download</a>
-        for
-        <h6>Troop 1718</h6>
+        <h6>Apple</h6>
       </div>
       <div class="app-link">
         <LogoAndroid onClick={() => {}} fontSize="60px" />
         <a href="https://play.google.com/store/apps/details?id=com.wowyourclient.scouttrek">
           Download
         </a>
+        for
+        <h6>Android</h6>
       </div>
     </>
   )
